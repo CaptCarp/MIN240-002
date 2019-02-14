@@ -1,0 +1,30 @@
+<html>
+<style>
+#ballerina {
+
+width: 118px;
+height: 130px;
+margin: auto;
+
+background-image: url: ("https://previews.123rf.com/images/kathygold/kathygold1009/kathygold100900068/7730727-african-american-ballerina-silhouette-on-a-white-background.jpg"); 
+
+background-size: cover; 
+
+
+transform-origin: 60% 0%; 
+animation: 
+        turn 1 2s, 
+        
+        turn 10 2.5, 
+        
+        turn 1 4.5, 
+        
+        fade_out_in ease-out ease-in;
+}
+
+@keyframes turn {
+    from{transform: rotateY(0);}
+    to{transform: rotateY(100);}
+    
+    </style>
+</html>
